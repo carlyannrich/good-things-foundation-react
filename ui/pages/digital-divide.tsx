@@ -12,7 +12,7 @@ const DigitalDivide: NextPage = () => (
             <link rel='icon' href='/good-things-foundation-fav-32x32.png' />
         </Head>
 
-        <main>
+        <main id='main'>
             <h1 className='text-5xl font-medium text-center mt-10'>
                 The Digital Divide
             </h1>

@@ -21,7 +21,7 @@ const Home: NextPage = () => (
             <link rel='icon' href='/good-things-foundation-fav-32x32.png' />
         </Head>
 
-        <main>
+        <main id='main'>
             <Hero {...heroContents} />
             <SideBySide {...sideBySideContents} />
             <HowCanWeHelp />

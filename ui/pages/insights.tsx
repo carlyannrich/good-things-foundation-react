@@ -12,7 +12,7 @@ const Insights: NextPage = () => (
             <link rel='icon' href='/good-things-foundation-fav-32x32.png' />
         </Head>
 
-        <main>
+        <main id='main'>
             <h1 className='text-5xl font-medium pb-4 text-center pt-10 text-white bg-teal-700'>
                 Insights
             </h1>

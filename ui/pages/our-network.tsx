@@ -12,7 +12,7 @@ const OurNetwork: NextPage = () => (
             <link rel='icon' href='/good-things-foundation-fav-32x32.png' />
         </Head>
 
-        <main>
+        <main id='main'>
             <h1 className='text-5xl font-medium py-4 mb-4 text-center mt-10 text-teal-700'>
                 Our network
             </h1>

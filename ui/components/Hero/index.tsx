@@ -11,9 +11,9 @@ const Hero = ({ imageSectionClassName, heading, content }: Hero) => (
         className={`bg-cover bg-no-repeat relative ${imageSectionClassName}`}
     >
         <div className='absolute mx-16'>
-            <h2 className='mt-20 bg-cyan-700 text-white w-fit p-7 text-3xl lg:text-7xl'>
+            <h1 className='mt-20 bg-cyan-700 text-white w-fit p-7 text-3xl lg:text-7xl'>
                 {heading}
-            </h2>
+            </h1>
             <p className='text-cyan-700 bg-white px-6 py-5 text-base lg:text-2xl lg:w-1/2 mt-6'>
                 {content}
             </p>

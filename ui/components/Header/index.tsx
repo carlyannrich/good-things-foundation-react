@@ -23,8 +23,8 @@ const Header = () => {
                 </button>
             </div>
             <div className='border-t-2 mb-4' />
-            <div className='flex justify-between items-center mx-16'>
-                <h1>
+            <div className='flex justify-between items-center mx-16 gap-20 lg:gap-0'>
+                <div className='h-[60px] w-[250px]'>
                     <Link href='/'>
                         <a>
                             <Image
@@ -35,7 +35,7 @@ const Header = () => {
                             />
                         </a>
                     </Link>
-                </h1>
+                </div>
                 <NavDesktop />
                 <NavMobile />
             </div>
