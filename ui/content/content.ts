@@ -28,8 +28,7 @@ export const cardContents = [
 export const heroContents = {
     heading: 'Get online week 2021',
     content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    imageDivClassName: 'bg-bannerOne h-[520px]'
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 };
 
 export const sideBySideContents = {
@@ -37,8 +36,7 @@ export const sideBySideContents = {
         'We are a social change charity, helping people to improve their lives through digital.',
     content:
         'We tackle the most pressing issues of our time, working with partners in thousands of communities across the UK and further afield.',
-    buttonText: 'Learn more about us',
-    imageDivClassName: 'bg-bannerTwo h-[300px] lg:h-[380px]'
+    buttonText: 'Learn more about us'
 };
 
 export const navigation = [

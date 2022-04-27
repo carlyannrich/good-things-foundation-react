@@ -3,12 +3,11 @@ import Button from '../Button';
 interface Hero {
     heading: string;
     content: string;
-    imageDivClassName: string;
 }
 
-const Hero = ({ imageDivClassName, heading, content }: Hero) => (
+const Hero = ({ heading, content }: Hero) => (
     <section>
-        <div className={`${imageDivClassName} relative bg-cover bg-no-repeat`}>
+        <div className='bg-heroImage h-[520px] relative bg-cover bg-no-repeat'>
             <div className='absolute mx-16'>
                 <h1 className='mt-20 bg-cyan-700 text-white w-fit p-7 text-3xl lg:text-7xl'>
                     {heading}

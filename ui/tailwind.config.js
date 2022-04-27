@@ -6,8 +6,8 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
-                bannerOne: "url('/banner-one.jpeg')",
-                bannerTwo: "url('/banner-two.jpeg')"
+                heroImage: "url('/banner-one.jpeg')",
+                sideBySideImage: "url('/banner-two.jpeg')"
             }
         }
     },
