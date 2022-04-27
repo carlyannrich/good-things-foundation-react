@@ -7,8 +7,7 @@ import SideBySide from '.';
 export const sideBySideContents = {
     heading: 'Testing header',
     content: 'Testing content',
-    buttonText: 'Testing button',
-    imageDivClassName: 'bg-bannerTwo h-[300px] lg:h-[380px]'
+    buttonText: 'Testing button'
 };
 
 describe('SideBySide', () => {

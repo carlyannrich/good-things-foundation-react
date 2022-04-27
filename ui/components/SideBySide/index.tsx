@@ -6,20 +6,12 @@ interface SideBySide {
     heading: string;
     content: string;
     buttonText: string;
-    imageDivClassName: string;
 }
 
-const SideBySide = ({
-    heading,
-    content,
-    buttonText,
-    imageDivClassName
-}: SideBySide) => (
+const SideBySide = ({ heading, content, buttonText }: SideBySide) => (
     <section className='grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 mt-2 lg:mt-[1px]'>
         {/* Image side on left hand side */}
-        <div
-            className={`${imageDivClassName} relative bg-no-repeat bg-cover`}
-        />
+        <div className='bg-sideBySideImage h-[300px] lg:h-[380px] relative bg-no-repeat bg-cover' />
 
         {/* Content side on right hand side */}
         <div className='col-span-1 bg-teal-700 pb-5 text-white mx-auto'>
