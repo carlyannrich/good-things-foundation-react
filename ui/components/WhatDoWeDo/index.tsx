@@ -1,6 +1,6 @@
 import Card from '../Card';
 
-import { cardContents } from '../../assets/content';
+import { cardContents } from '../../content/content';
 import Button from '../Button';
 
 const WhatDoWeDo = () => (

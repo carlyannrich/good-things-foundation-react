@@ -1,4 +1,4 @@
-import { navigation } from '../../../../assets/content';
+import { navigation } from '../../../../content/content';
 
 const NavDesktop = () => (
     <nav className='font-medium hidden lg:flex lg:gap-4'>

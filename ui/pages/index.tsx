@@ -6,7 +6,7 @@ import SideBySide from '../components/SideBySide';
 import HowCanWeHelp from '../components/HowCanWeHelp';
 import WhatDoWeDo from '../components/WhatDoWeDo';
 
-import { heroContents, sideBySideContents } from '../assets/content';
+import { heroContents, sideBySideContents } from '../content/content';
 
 const Home: NextPage = () => (
     <div>

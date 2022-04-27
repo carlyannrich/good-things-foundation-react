@@ -17,7 +17,7 @@ const SideBySide = ({
     <section className='grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 mt-2 lg:mt-[1px]'>
         {/* Image side on left hand side */}
         <div
-            className={`relative bg-no-repeat bg-cover ${imageDivClassName}`}
+            className={`${imageDivClassName} relative bg-no-repeat bg-cover`}
         />
 
         {/* Content side on right hand side */}

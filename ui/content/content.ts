@@ -29,7 +29,7 @@ export const heroContents = {
     heading: 'Get online week 2021',
     content:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    imageSectionClassName: 'bg-bannerOne h-[520px]'
+    imageDivClassName: 'bg-bannerOne h-[520px]'
 };
 
 export const sideBySideContents = {
