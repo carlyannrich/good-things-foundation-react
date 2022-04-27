@@ -1,7 +1,7 @@
 import Card from '../Card';
+import Button from '../Button';
 
 import { cardContents } from '../../content/content';
-import Button from '../Button';
 
 const WhatDoWeDo = () => (
     <section className='bg-cyan-700 text-white'>
@@ -14,11 +14,13 @@ const WhatDoWeDo = () => (
                 the following impactful programmes.
             </p>
         </div>
+
         <div className='lg:mx-16 gap-3 lg:gap-6 grid grid-rows-4 lg:grid-rows-1 lg:grid-cols-4 justify-items-center'>
             {cardContents.map((cardContent) => (
                 <Card key={cardContent.heading} {...cardContent} />
             ))}
         </div>
+
         <div className='text-center mt-10 pb-10'>
             <Button
                 className='bg-white border-2 border-white text-rose-700 hover:text-white hover:bg-rose-700 mt-6'

@@ -1,4 +1,4 @@
-# Good Things Foundation
+# Good Things Foundation :sparkles:
 
 ## To run locally:
 
@@ -32,4 +32,5 @@ This project has been made using:
 -   Tailwind
 -   HeroIcons
 -   Jest
+-   react-testing-library
 -   Prettier and eslint

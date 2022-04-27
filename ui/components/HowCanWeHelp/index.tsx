@@ -11,6 +11,7 @@ const HowCanWeHelp = () => (
                 we&apos;ll help get you to the right place.
             </p>
         </div>
+
         <div className='mx-16 bg-white px-4 mt-8 py-6 lg:flex items-center justify-center'>
             <div className='text-xl lg:text-3xl text-center'>
                 <label htmlFor='i-am'>I am</label>
@@ -28,6 +29,7 @@ const HowCanWeHelp = () => (
                     <option label='to Learn' />
                 </select>
             </div>
+
             <Button
                 className='bg-rose-700 border-2 border-white text-white hover:bg-white hover:text-black hover:border-rose-700 mt-2'
                 buttonText='Start now'
